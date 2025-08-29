@@ -77,3 +77,12 @@ like
     OR in one line like this
      {[1, 2, 3].map(item =>  <div key={item}>{item}</div>)}
 ```
+
+```javascript
+
+let arr = [1, 2, 3, 4, 2];
+
+let newArr = arr.filter(item => item=2); // [1,2,3,4,2]
+let newArr = arr.map(item => item=2); //[2,2,2,2,2]
+let newArr = arr.reduce(item => item=2); //2
+```
